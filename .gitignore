@@ -6,6 +6,8 @@
 .env.test
 .env.production
 
+.venv 
+
 # Backup files
 .env.backup
 .env.*.backup
