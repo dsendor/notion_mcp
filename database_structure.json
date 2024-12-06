@@ -1,0 +1,669 @@
+{
+  "object": "database",
+  "id": "31343a13-c994-48ef-b2c1-19b24ff895b0",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🏔"
+  },
+  "created_time": "2021-11-13T23:34:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+  },
+  "last_edited_time": "2024-09-30T15:36:00.000Z",
+  "title": [
+    {
+      "type": "text",
+      "text": {
+        "content": "Personal Projects",
+        "link": null
+      },
+      "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "Personal Projects",
+      "href": null
+    }
+  ],
+  "description": [
+    {
+      "type": "text",
+      "text": {
+        "content": "\n\n",
+        "link": null
+      },
+      "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "\n\n",
+      "href": null
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": "Personal Priorities Readme",
+        "link": {
+          "url": "https://www.notion.so/Personal-Priorities-Readme-802cba91f10b4b71b15bf52cb14fde90"
+        }
+      },
+      "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "Personal Priorities Readme",
+      "href": "https://www.notion.so/Personal-Priorities-Readme-802cba91f10b4b71b15bf52cb14fde90"
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": "\n",
+        "link": null
+      },
+      "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "\n",
+      "href": null
+    }
+  ],
+  "is_inline": false,
+  "properties": {
+    "Due": {
+      "id": "%40%3Edg",
+      "name": "Due",
+      "type": "date",
+      "date": {}
+    },
+    "🏔 Initiatives": {
+      "id": "%40UR%3F",
+      "name": "🏔 Initiatives",
+      "type": "relation",
+      "relation": {
+        "database_id": "28ff8f5e-04d9-4f41-a9f1-85b69d67d1b6",
+        "synced_property_name": "🏔 Personal Priorities",
+        "synced_property_id": "_[ah"
+      }
+    },
+    "How Important": {
+      "id": "CPx%60",
+      "name": "How Important",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Planning category": {
+      "id": "Dhlz",
+      "name": "Planning category",
+      "type": "status",
+      "status": {
+        "options": [
+          {
+            "id": "413a3f21-45d9-4f96-ac1f-b61c246f8653",
+            "name": "Need to break down",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "MC`H",
+            "name": "Somewhat clear task",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "otUB",
+            "name": "Unclear brainstorm",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "640c220c-959d-44c3-a0d7-899e2c80c08c",
+            "name": "Planning",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "SsKX",
+            "name": "Concrete Brainstorm",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "a6389c70-eba6-44ce-823a-019530fb1f49",
+            "name": "Concrete task",
+            "color": "green",
+            "description": null
+          }
+        ],
+        "groups": [
+          {
+            "id": "1bbf0c26-c237-43d1-a7d4-1482c3b83a19",
+            "name": "To-do",
+            "color": "gray",
+            "option_ids": [
+              "413a3f21-45d9-4f96-ac1f-b61c246f8653"
+            ]
+          },
+          {
+            "id": "92db9453-4fc4-47f3-a711-74fbefe4abb2",
+            "name": "In progress",
+            "color": "blue",
+            "option_ids": [
+              "MC`H",
+              "otUB",
+              "640c220c-959d-44c3-a0d7-899e2c80c08c"
+            ]
+          },
+          {
+            "id": "98dcb68a-be8a-43d2-9c41-285800c633b8",
+            "name": "Complete",
+            "color": "green",
+            "option_ids": [
+              "SsKX",
+              "a6389c70-eba6-44ce-823a-019530fb1f49"
+            ]
+          }
+        ]
+      }
+    },
+    "MVP Goal": {
+      "id": "Fsvn",
+      "name": "MVP Goal",
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "Blocked by": {
+      "id": "G%3BF%5C",
+      "name": "Blocked by",
+      "type": "relation",
+      "relation": {
+        "database_id": "31343a13-c994-48ef-b2c1-19b24ff895b0",
+        "synced_property_name": "Blocking",
+        "synced_property_id": "c>?{"
+      }
+    },
+    "How is this going?": {
+      "id": "G%5D%3DT",
+      "name": "How is this going?",
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "fea9b3b2-b07d-408f-a01c-ca4bfaa39fc9",
+            "name": "5- Great",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "KFAG",
+            "name": "4 - Good",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "40fbab2a-9d2f-401f-8f20-389bd708de1e",
+            "name": "3 - OK",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "qCeV",
+            "name": "2 - Not good",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "247d3c02-9856-4e39-bf9e-3fd7f76007bc",
+            "name": "1 - Bad",
+            "color": "red",
+            "description": null
+          }
+        ]
+      }
+    },
+    "Created by": {
+      "id": "J%3DUm",
+      "name": "Created by",
+      "type": "created_by",
+      "created_by": {}
+    },
+    "Time spent": {
+      "id": "KL%40S",
+      "name": "Time spent",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Active": {
+      "id": "VoKs",
+      "name": "Active",
+      "type": "status",
+      "status": {
+        "options": [
+          {
+            "id": "<kb{",
+            "name": "Categorized todo",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "9be4c55b-c5fd-402a-bf79-1b6847838c30",
+            "name": "To categorize",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "7d0a5933-c7d1-4ece-b943-5da4618ed30b",
+            "name": "Active",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "2d359274-6e53-4f6b-a54f-785f73de1a32",
+            "name": "Not Active",
+            "color": "green",
+            "description": null
+          }
+        ],
+        "groups": [
+          {
+            "id": "cbf9c0fa-923f-4c61-927a-001bdb459f7e",
+            "name": "To-do",
+            "color": "gray",
+            "option_ids": [
+              "<kb{",
+              "9be4c55b-c5fd-402a-bf79-1b6847838c30"
+            ]
+          },
+          {
+            "id": "ec714465-ac7f-42f2-a026-50fb933752c4",
+            "name": "In progress",
+            "color": "blue",
+            "option_ids": [
+              "7d0a5933-c7d1-4ece-b943-5da4618ed30b"
+            ]
+          },
+          {
+            "id": "6ff05fa0-f384-42f7-b94f-edd196966930",
+            "name": "Complete",
+            "color": "green",
+            "option_ids": [
+              "2d359274-6e53-4f6b-a54f-785f73de1a32"
+            ]
+          }
+        ]
+      }
+    },
+    "🏔 High level personal priorities": {
+      "id": "XNRW",
+      "name": "🏔 High level personal priorities",
+      "type": "relation",
+      "relation": {
+        "database_id": "98ea08cb-b05e-4f68-919d-0f8882628ca2",
+        "synced_property_name": "Children",
+        "synced_property_id": "in]j"
+      }
+    },
+    "Prioritized and scheduled": {
+      "id": "%5BIm%3B",
+      "name": "Prioritized and scheduled",
+      "type": "status",
+      "status": {
+        "options": [
+          {
+            "id": "45fbf595-9b2b-4e22-83c7-d88fe5ad4658",
+            "name": "Not prioritized or scheduled",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "7b07465c-da2b-49b4-9220-45d228e98b59",
+            "name": "Prioritized NOT scheduled",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "88e0a7b9-7e91-49db-95ed-5cd36e7b3f92",
+            "name": "Prioritized and scheduled",
+            "color": "green",
+            "description": null
+          }
+        ],
+        "groups": [
+          {
+            "id": "220892e2-a0fd-4061-9921-fad98707731f",
+            "name": "To-do",
+            "color": "gray",
+            "option_ids": [
+              "45fbf595-9b2b-4e22-83c7-d88fe5ad4658"
+            ]
+          },
+          {
+            "id": "6383e0a4-a93e-4817-9d69-00690139d18a",
+            "name": "In progress",
+            "color": "blue",
+            "option_ids": [
+              "7b07465c-da2b-49b4-9220-45d228e98b59"
+            ]
+          },
+          {
+            "id": "60a6f019-d187-455c-819e-0ca27d22d764",
+            "name": "Complete",
+            "color": "green",
+            "option_ids": [
+              "88e0a7b9-7e91-49db-95ed-5cd36e7b3f92"
+            ]
+          }
+        ]
+      }
+    },
+    "Current Priority": {
+      "id": "%5C_%3D%7B",
+      "name": "Current Priority",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "How much time needed": {
+      "id": "%5Cj~R",
+      "name": "How much time needed",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Blocking": {
+      "id": "c%3E%3F%7B",
+      "name": "Blocking",
+      "type": "relation",
+      "relation": {
+        "database_id": "31343a13-c994-48ef-b2c1-19b24ff895b0",
+        "synced_property_name": "Blocked by",
+        "synced_property_id": "G;F\\"
+      }
+    },
+    "Status": {
+      "id": "eYBv",
+      "name": "Status",
+      "type": "status",
+      "status": {
+        "options": [
+          {
+            "id": "94cf05f0-c74c-4b4b-8a6e-4f9ec71f69e0",
+            "name": "Backlog",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "eb4aa158-4c08-4456-a24a-855411884aca",
+            "name": "Waiting",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "f8816c52-9b24-42bd-91cf-3000df7c10a5",
+            "name": "Next",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "daf4afe3-5fdc-49e2-8826-bd107923502f",
+            "name": "Doing",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "54f68bff-0257-4e42-bd2c-699ba243d0e4",
+            "name": "Maintenance",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "42925cef-4989-4256-b20f-06a52229d4e0",
+            "name": "Review",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "7fa775f3-4fd1-4cc0-92be-5ddefd26d1ef",
+            "name": "Done ✨",
+            "color": "green",
+            "description": null
+          }
+        ],
+        "groups": [
+          {
+            "id": "5ea4ee31-bdac-4687-89dd-31890cf9068c",
+            "name": "To-do",
+            "color": "gray",
+            "option_ids": [
+              "94cf05f0-c74c-4b4b-8a6e-4f9ec71f69e0",
+              "eb4aa158-4c08-4456-a24a-855411884aca",
+              "f8816c52-9b24-42bd-91cf-3000df7c10a5"
+            ]
+          },
+          {
+            "id": "e348b42c-d294-4c0e-9608-2bf90bbf30aa",
+            "name": "In progress",
+            "color": "blue",
+            "option_ids": [
+              "54f68bff-0257-4e42-bd2c-699ba243d0e4",
+              "daf4afe3-5fdc-49e2-8826-bd107923502f",
+              "42925cef-4989-4256-b20f-06a52229d4e0"
+            ]
+          },
+          {
+            "id": "4d7502ec-2586-4d44-a38e-4e0a067aecc3",
+            "name": "Complete",
+            "color": "green",
+            "option_ids": [
+              "7fa775f3-4fd1-4cc0-92be-5ddefd26d1ef"
+            ]
+          }
+        ]
+      }
+    },
+    "ID": {
+      "id": "fPsY",
+      "name": "ID",
+      "type": "unique_id",
+      "unique_id": {
+        "prefix": null
+      }
+    },
+    "Last edited time": {
+      "id": "goie",
+      "name": "Last edited time",
+      "type": "last_edited_time",
+      "last_edited_time": {}
+    },
+    "Initiative Doing": {
+      "id": "hAin",
+      "name": "Initiative Doing",
+      "type": "formula",
+      "formula": {
+        "expression": "includes({{notion:block_property:%40UR%3F:00000000-0000-0000-0000-000000000000:69c5bb64-237e-46a3-91c2-a1896c9e7351}}.map(current.{{notion:block_property:eYBv:28ff8f5e-04d9-4f41-a9f1-85b69d67d1b6:69c5bb64-237e-46a3-91c2-a1896c9e7351}}), \"Doing\") or includes({{notion:block_property:%40UR%3F:00000000-0000-0000-0000-000000000000:69c5bb64-237e-46a3-91c2-a1896c9e7351}}.map(current.{{notion:block_property:eYBv:28ff8f5e-04d9-4f41-a9f1-85b69d67d1b6:69c5bb64-237e-46a3-91c2-a1896c9e7351}}), \"Maintenance\")"
+      }
+    },
+    "Scheduled hours": {
+      "id": "kXyI",
+      "name": "Scheduled hours",
+      "type": "number",
+      "number": {
+        "format": "number"
+      }
+    },
+    "Consequence": {
+      "id": "kYJv",
+      "name": "Consequence",
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "rge@",
+            "name": "$500k+ - Life or death",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "c}eZ",
+            "name": "$10K-$500K - Massive loss",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "vQRX",
+            "name": "$801-$10K - Big time bound",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": ">gn=",
+            "name": "$101-$800 - Larger or less clear",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "h;mZ",
+            "name": "$0-$100 - Minimal/Untimed",
+            "color": "pink",
+            "description": null
+          }
+        ]
+      }
+    },
+    "Urgency": {
+      "id": "ljNk",
+      "name": "Urgency",
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "[vGy",
+            "name": "Urgent strict date",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "5ada3e04-48d1-4421-bb4b-ed3554145773",
+            "name": "Growing Urgency",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "741f2c05-1faf-4e34-8490-1b5b9d2da6ae",
+            "name": "Not urgent",
+            "color": "green",
+            "description": null
+          }
+        ]
+      }
+    },
+    "Consequence of not doing": {
+      "id": "oF~%5B",
+      "name": "Consequence of not doing",
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "Tags": {
+      "id": "vZ5T",
+      "name": "Tags",
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "32ba73e2-2301-4c4c-8dcd-c89d24298c55",
+            "name": "Life Skills",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "922fc483-15f7-45a1-ae66-6fa98419f96d",
+            "name": "Travel",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "c7acc630-025d-4f53-a6aa-4bd2f1cbbdf6",
+            "name": "Finance",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "f710e860-9012-43d2-922d-e47924399261",
+            "name": "Health",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "58df6137-449f-4385-bf7b-808a00681358",
+            "name": "Work",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "81c6a733-1e40-414d-920c-c31a8c878e71",
+            "name": "Fun",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "453a6c10-3892-49e5-a965-22c607572efd",
+            "name": "Learnings to Enter",
+            "color": "gray",
+            "description": null
+          }
+        ]
+      }
+    },
+    "remaining to schedule": {
+      "id": "wv%3AA",
+      "name": "remaining to schedule",
+      "type": "formula",
+      "formula": {
+        "expression": "{{notion:block_property:%5Cj~R:00000000-0000-0000-0000-000000000000:69c5bb64-237e-46a3-91c2-a1896c9e7351}}-{{notion:block_property:kXyI:00000000-0000-0000-0000-000000000000:69c5bb64-237e-46a3-91c2-a1896c9e7351}}"
+      }
+    },
+    "Name": {
+      "id": "title",
+      "name": "Name",
+      "type": "title",
+      "title": {}
+    }
+  },
+  "parent": {
+    "type": "page_id",
+    "page_id": "71e28ad4-7a44-4c83-bfd2-2aacf044970d"
+  },
+  "url": "https://www.notion.so/31343a13c99448efb2c119b24ff895b0",
+  "public_url": null,
+  "archived": false,
+  "in_trash": false,
+  "request_id": "ea4158ee-05bf-4058-bda7-18c2488773db"
+}

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: notion-mcp
+Version: 0.1.0
+Summary: Notion MCP Server
+Requires-Dist: httpx
+Requires-Dist: python-dotenv

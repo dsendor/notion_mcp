@@ -1,0 +1,7395 @@
+[
+  {
+    "object": "page",
+    "id": "2a68f5da-b141-4ef4-b937-ec83df685a29",
+    "created_time": "2023-10-01T22:46:00.000Z",
+    "last_edited_time": "2023-10-01T22:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4a562e90-08b5-4295-97b3-6b3b18283779"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Duration ": {
+        "id": "%3Cl%3D~",
+        "type": "formula",
+        "formula": {
+          "type": "number",
+          "number": 60
+        }
+      },
+      "Assign": {
+        "id": "CSA%5B",
+        "type": "people",
+        "people": []
+      },
+      "Time type": {
+        "id": "R%7D~h",
+        "type": "select",
+        "select": {
+          "id": "15dae9c6-5c72-4e83-a8c9-782ac22abead",
+          "name": "Family",
+          "color": "blue"
+        }
+      },
+      "Status": {
+        "id": "aGrq",
+        "type": "select",
+        "select": null
+      },
+      "Date": {
+        "id": "z%3EV%3D",
+        "type": "date",
+        "date": {
+          "start": "2023-10-02T06:15:00.000-04:00",
+          "end": "2023-10-02T07:15:00.000-04:00",
+          "time_zone": null
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kids",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kids",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Kids-2a68f5dab1414ef4b937ec83df685a29",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "07431691-b078-44f5-9637-14811ef750f7",
+    "created_time": "2023-10-01T22:45:00.000Z",
+    "last_edited_time": "2023-10-01T22:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4a562e90-08b5-4295-97b3-6b3b18283779"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Duration ": {
+        "id": "%3Cl%3D~",
+        "type": "formula",
+        "formula": {
+          "type": "number",
+          "number": 15
+        }
+      },
+      "Assign": {
+        "id": "CSA%5B",
+        "type": "people",
+        "people": []
+      },
+      "Time type": {
+        "id": "R%7D~h",
+        "type": "select",
+        "select": {
+          "id": "920026e0-8d9c-407b-8276-953beff58e2d",
+          "name": "Personal",
+          "color": "gray"
+        }
+      },
+      "Status": {
+        "id": "aGrq",
+        "type": "select",
+        "select": null
+      },
+      "Date": {
+        "id": "z%3EV%3D",
+        "type": "date",
+        "date": {
+          "start": "2023-10-02T06:00:00.000-04:00",
+          "end": "2023-10-02T06:15:00.000-04:00",
+          "time_zone": null
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Personal",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Personal",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Personal-07431691b07844f5963714811ef750f7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "2edc7b21-4d64-454b-a90e-6e5dd2a44e7e",
+    "created_time": "2023-10-01T22:44:00.000Z",
+    "last_edited_time": "2023-10-01T22:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4a562e90-08b5-4295-97b3-6b3b18283779"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Duration ": {
+        "id": "%3Cl%3D~",
+        "type": "formula",
+        "formula": {
+          "type": "number",
+          "number": 480
+        }
+      },
+      "Assign": {
+        "id": "CSA%5B",
+        "type": "people",
+        "people": []
+      },
+      "Time type": {
+        "id": "R%7D~h",
+        "type": "select",
+        "select": {
+          "id": "9224de90-c96e-41ff-9fed-28fcb666c3c0",
+          "name": "Sleep",
+          "color": "brown"
+        }
+      },
+      "Status": {
+        "id": "aGrq",
+        "type": "select",
+        "select": null
+      },
+      "Date": {
+        "id": "z%3EV%3D",
+        "type": "date",
+        "date": {
+          "start": "2023-10-01T22:00:00.000-04:00",
+          "end": "2023-10-02T06:00:00.000-04:00",
+          "time_zone": null
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sleep",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sleep",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Sleep-2edc7b214d64454ba90e6e5dd2a44e7e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "57a6a66e-316a-4758-9ead-8a8de0632323",
+    "created_time": "2023-10-01T22:43:00.000Z",
+    "last_edited_time": "2023-10-01T22:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4a562e90-08b5-4295-97b3-6b3b18283779"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Duration ": {
+        "id": "%3Cl%3D~",
+        "type": "formula",
+        "formula": {
+          "type": "number",
+          "number": 90
+        }
+      },
+      "Assign": {
+        "id": "CSA%5B",
+        "type": "people",
+        "people": []
+      },
+      "Time type": {
+        "id": "R%7D~h",
+        "type": "select",
+        "select": {
+          "id": "920026e0-8d9c-407b-8276-953beff58e2d",
+          "name": "Personal",
+          "color": "gray"
+        }
+      },
+      "Status": {
+        "id": "aGrq",
+        "type": "select",
+        "select": null
+      },
+      "Date": {
+        "id": "z%3EV%3D",
+        "type": "date",
+        "date": {
+          "start": "2023-10-01T20:30:00.000-04:00",
+          "end": "2023-10-01T22:00:00.000-04:00",
+          "time_zone": null
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Personal",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Personal",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Personal-57a6a66e316a47589ead8a8de0632323",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "95747402-682a-400f-8703-9bee93f05307",
+    "created_time": "2023-10-01T22:38:00.000Z",
+    "last_edited_time": "2023-10-01T22:43:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4a562e90-08b5-4295-97b3-6b3b18283779"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Duration ": {
+        "id": "%3Cl%3D~",
+        "type": "formula",
+        "formula": {
+          "type": "number",
+          "number": 690
+        }
+      },
+      "Assign": {
+        "id": "CSA%5B",
+        "type": "people",
+        "people": []
+      },
+      "Time type": {
+        "id": "R%7D~h",
+        "type": "select",
+        "select": {
+          "id": "15dae9c6-5c72-4e83-a8c9-782ac22abead",
+          "name": "Family",
+          "color": "blue"
+        }
+      },
+      "Status": {
+        "id": "aGrq",
+        "type": "select",
+        "select": null
+      },
+      "Date": {
+        "id": "z%3EV%3D",
+        "type": "date",
+        "date": {
+          "start": "2023-10-01T09:00:00.000-04:00",
+          "end": "2023-10-01T20:30:00.000-04:00",
+          "time_zone": null
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Family",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Family",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Family-95747402682a400f87039bee93f05307",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "61755704-be9a-4ebc-9e56-cf197342f212",
+    "created_time": "2023-10-01T22:38:00.000Z",
+    "last_edited_time": "2023-10-01T22:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4a562e90-08b5-4295-97b3-6b3b18283779"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Duration ": {
+        "id": "%3Cl%3D~",
+        "type": "formula",
+        "formula": {
+          "type": "number",
+          "number": 120
+        }
+      },
+      "Assign": {
+        "id": "CSA%5B",
+        "type": "people",
+        "people": []
+      },
+      "Time type": {
+        "id": "R%7D~h",
+        "type": "select",
+        "select": {
+          "id": "920026e0-8d9c-407b-8276-953beff58e2d",
+          "name": "Personal",
+          "color": "gray"
+        }
+      },
+      "Status": {
+        "id": "aGrq",
+        "type": "select",
+        "select": null
+      },
+      "Date": {
+        "id": "z%3EV%3D",
+        "type": "date",
+        "date": {
+          "start": "2023-10-01T07:00:00.000-04:00",
+          "end": "2023-10-01T09:00:00.000-04:00",
+          "time_zone": null
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "personal time",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "personal time",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/personal-time-61755704be9a4ebc9e56cf197342f212",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "5f19a192-60b6-412d-ab33-427479e1af61",
+    "created_time": "2023-10-01T22:38:00.000Z",
+    "last_edited_time": "2023-10-01T22:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "4a562e90-08b5-4295-97b3-6b3b18283779"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Duration ": {
+        "id": "%3Cl%3D~",
+        "type": "formula",
+        "formula": {
+          "type": "number",
+          "number": 420
+        }
+      },
+      "Assign": {
+        "id": "CSA%5B",
+        "type": "people",
+        "people": []
+      },
+      "Time type": {
+        "id": "R%7D~h",
+        "type": "select",
+        "select": {
+          "id": "9224de90-c96e-41ff-9fed-28fcb666c3c0",
+          "name": "Sleep",
+          "color": "brown"
+        }
+      },
+      "Status": {
+        "id": "aGrq",
+        "type": "select",
+        "select": null
+      },
+      "Date": {
+        "id": "z%3EV%3D",
+        "type": "date",
+        "date": {
+          "start": "2023-10-01T00:00:00.000-04:00",
+          "end": "2023-10-01T07:00:00.000-04:00",
+          "time_zone": null
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sleep",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sleep",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Sleep-5f19a19260b6412dab33427479e1af61",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a211d206-7d23-4f0c-9591-abbd543aa66c",
+    "created_time": "2023-09-26T14:34:00.000Z",
+    "last_edited_time": "2023-09-28T13:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-09-26",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-09-26",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/a211d2067d234f0c9591abbd543aa66c",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "cdf651c1-d591-4f62-a86f-e6969332b54e",
+    "created_time": "2023-09-25T19:27:00.000Z",
+    "last_edited_time": "2023-09-27T11:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-09-25",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-09-25",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/cdf651c1d5914f62a86fe6969332b54e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "d9dea08b-b754-4da2-9b96-31343388a9fe",
+    "created_time": "2023-09-23T00:22:00.000Z",
+    "last_edited_time": "2023-09-23T01:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Journal Template",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Journal Template",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Journal-Template-d9dea08bb7544da29b9631343388a9fe",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9f85a194-a214-4597-8da1-0898e545cb25",
+    "created_time": "2023-09-20T01:22:00.000Z",
+    "last_edited_time": "2023-09-20T01:23:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Journal Template",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Journal Template",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Journal-Template-9f85a194a21445978da10898e545cb25",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f4c3a80b-582a-43cd-bb0a-8f401c7202e8",
+    "created_time": "2023-09-09T14:52:00.000Z",
+    "last_edited_time": "2023-09-18T09:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-09-09",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-09-09",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/f4c3a80b582a43cdbb0a8f401c7202e8",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9cd18970-dd25-4a5a-9779-1dec72d68c4a",
+    "created_time": "2023-09-16T10:59:00.000Z",
+    "last_edited_time": "2023-09-17T21:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-09-16",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-09-16",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/9cd18970dd254a5a97791dec72d68c4a",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "b954c512-8ee3-4063-92d3-ca5cd241e25d",
+    "created_time": "2023-09-05T13:29:00.000Z",
+    "last_edited_time": "2023-09-06T22:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-09-05",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-09-05",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/b954c5128ee3406392d3ca5cd241e25d",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a4a516ed-4ae0-46f5-9a51-28ece156f0b8",
+    "created_time": "2023-08-06T13:34:00.000Z",
+    "last_edited_time": "2023-09-04T15:21:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e",
+            "name": "David Sendor-Israel",
+            "avatar_url": "https://lh4.googleusercontent.com/-R2yNzxEFwD0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rebIRegKVaTnc14dibyembDb-0bWw/photo.jpg",
+            "type": "person",
+            "person": {
+              "email": "dsendor@gmail.com"
+            }
+          }
+        ]
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Household Finances and Admin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Household Finances and Admin",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Household-Finances-and-Admin-a4a516ed4ae046f59a5128ece156f0b8",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "0eae44c7-57ae-4d03-97e2-ea60d77e318f",
+    "created_time": "2023-08-27T18:07:00.000Z",
+    "last_edited_time": "2023-09-04T15:19:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Food planning",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Food planning",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Food-planning-0eae44c757ae4d0397e2ea60d77e318f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9cb06a62-b307-48a2-bad2-9c2e9803f601",
+    "created_time": "2023-08-26T14:06:00.000Z",
+    "last_edited_time": "2023-09-04T02:18:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-26",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-26",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/9cb06a62b30748a2bad29c2e9803f601",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e169244e-1d88-460d-b1e7-162f582733e5",
+    "created_time": "2023-08-28T22:52:00.000Z",
+    "last_edited_time": "2023-09-04T02:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-28",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-28",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/e169244e1d88460db1e7162f582733e5",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "cdffd6ea-a3e3-493c-85ae-7288b36dd91d",
+    "created_time": "2023-09-02T14:02:00.000Z",
+    "last_edited_time": "2023-09-04T02:12:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-09-02",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-09-02",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/cdffd6eaa3e3493c85ae7288b36dd91d",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "c0e4581b-9923-4c28-8b03-781d87399447",
+    "created_time": "2023-08-22T10:23:00.000Z",
+    "last_edited_time": "2023-08-28T03:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-22",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-22",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/c0e4581b99234c288b03781d87399447",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a4883846-09df-47b1-a8fd-31327fca0c35",
+    "created_time": "2023-08-23T21:55:00.000Z",
+    "last_edited_time": "2023-08-28T03:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-23",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-23",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/a488384609df47b1a8fd31327fca0c35",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "fc23b988-20b6-42f6-96e8-f6d3f7439255",
+    "created_time": "2023-08-25T12:49:00.000Z",
+    "last_edited_time": "2023-08-28T03:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-25",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-25",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/fc23b98820b642f696e8f6d3f7439255",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "61f89fe9-191a-4726-9f8b-196b562aba06",
+    "created_time": "2022-12-04T16:54:00.000Z",
+    "last_edited_time": "2023-08-27T18:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e",
+            "name": "David Sendor-Israel",
+            "avatar_url": "https://lh4.googleusercontent.com/-R2yNzxEFwD0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rebIRegKVaTnc14dibyembDb-0bWw/photo.jpg",
+            "type": "person",
+            "person": {
+              "email": "dsendor@gmail.com"
+            }
+          },
+          {
+            "object": "user",
+            "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8",
+            "name": "Rebecca Israel",
+            "avatar_url": "https://lh3.googleusercontent.com/a-/AFdZucquT59_R5BoNbuG9pbinXXO6og6rSzPD9-t-xvFosU=s100",
+            "type": "person",
+            "person": {
+              "email": "becca.israel@gmail.com"
+            }
+          }
+        ]
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "cad7d301-0a5f-4ff8-938a-df60e816bbe3"
+          },
+          {
+            "id": "84e7821e-d9e4-4c26-a127-e977f9f3ab6f"
+          }
+        ],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Improve short term relationship",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Improve short term relationship",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Improve-short-term-relationship-61f89fe9191a47269f8b196b562aba06",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "83fa74c0-8708-4db3-ad1e-b3e4400596e0",
+    "created_time": "2023-08-17T22:57:00.000Z",
+    "last_edited_time": "2023-08-27T17:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "d798e516-b6c4-4ac8-9b6e-d7464fcbe910",
+          "name": "Done",
+          "color": "green"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e",
+            "name": "David Sendor-Israel",
+            "avatar_url": "https://lh4.googleusercontent.com/-R2yNzxEFwD0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rebIRegKVaTnc14dibyembDb-0bWw/photo.jpg",
+            "type": "person",
+            "person": {
+              "email": "dsendor@gmail.com"
+            }
+          }
+        ]
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-17",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-17",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Figure out top priorities",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Figure out top priorities",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Figure-out-top-priorities-83fa74c087084db3ad1eb3e4400596e0",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "06280cdd-4f16-44e0-9238-09a906c81a5c",
+    "created_time": "2023-08-06T15:46:00.000Z",
+    "last_edited_time": "2023-08-27T17:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "d798e516-b6c4-4ac8-9b6e-d7464fcbe910",
+          "name": "Done",
+          "color": "green"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Eastman and Newport trip",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Eastman and Newport trip",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Eastman-and-Newport-trip-06280cdd4f1644e0923809a906c81a5c",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "bd2b39ac-2625-4b0f-bf21-bc73628295d4",
+    "created_time": "2023-08-21T10:12:00.000Z",
+    "last_edited_time": "2023-08-22T14:08:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-21",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-21",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/bd2b39ac26254b0fbf21bc73628295d4",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "ab12bd97-48ab-4943-8b55-08ccaf02ce60",
+    "created_time": "2023-08-20T11:26:00.000Z",
+    "last_edited_time": "2023-08-22T10:24:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-20",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-20",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/ab12bd9748ab49438b5508ccaf02ce60",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "d9787a92-b533-4d79-a66c-64ac41db743a",
+    "created_time": "2023-08-15T15:19:00.000Z",
+    "last_edited_time": "2023-08-20T21:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-15",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-15",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/d9787a92b5334d79a66c64ac41db743a",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "976635f6-0d60-43fc-bb93-20b255df1400",
+    "created_time": "2023-08-17T10:42:00.000Z",
+    "last_edited_time": "2023-08-20T21:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-17",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-17",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/976635f60d6043fcbb9320b255df1400",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e1a8b208-5f1d-4f48-8726-d1ed6c66a31f",
+    "created_time": "2023-08-09T10:47:00.000Z",
+    "last_edited_time": "2023-08-20T20:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-09",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-09",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/e1a8b2085f1d4f488726d1ed6c66a31f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "de4b64b4-595b-4d22-a3c5-472808585ea2",
+    "created_time": "2023-07-29T14:30:00.000Z",
+    "last_edited_time": "2023-08-20T20:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-29",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-29",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/de4b64b4595b4d22a3c5472808585ea2",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "bae7e11a-3e20-47ed-8d15-a338c8e094b0",
+    "created_time": "2023-08-01T11:13:00.000Z",
+    "last_edited_time": "2023-08-20T20:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-01",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-01",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/bae7e11a3e2047ed8d15a338c8e094b0",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "bf084421-9138-4ab4-9909-e83710bed9a9",
+    "created_time": "2023-08-04T10:52:00.000Z",
+    "last_edited_time": "2023-08-20T20:18:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "L ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "L ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-04",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-04",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/L-bf08442191384ab49909e83710bed9a9",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "77063fff-ebc6-45e7-9171-232ee7a8ec8e",
+    "created_time": "2023-08-18T00:25:00.000Z",
+    "last_edited_time": "2023-08-18T20:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Get bed for Zoe ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Get bed for Zoe ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Get-bed-for-Zoe-77063fffebc645e79171232ee7a8ec8e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a48e15ba-bf8f-4fb0-95c2-129c871c5c37",
+    "created_time": "2023-08-06T13:09:00.000Z",
+    "last_edited_time": "2023-08-18T19:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-06",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-06",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/a48e15babf8f4fb095c2129c871c5c37",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e7573754-7583-445d-ba52-402ee537b7dd",
+    "created_time": "2023-08-18T14:43:00.000Z",
+    "last_edited_time": "2023-08-18T19:04:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Come up with improved simple Family org/planning process",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Come up with improved simple Family org/planning process",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Come-up-with-improved-simple-Family-org-planning-process-e75737547583445dba52402ee537b7dd",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "4c1011f0-8b9d-46b7-b155-b875a9f09c80",
+    "created_time": "2023-03-19T15:12:00.000Z",
+    "last_edited_time": "2023-08-18T15:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "b15a54f2-d602-426f-9070-3b8de50a3ce4"
+          }
+        ],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Fix house",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Fix house",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Fix-house-4c1011f08b9d46b7b155b875a9f09c80",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "b15a54f2-d602-426f-9070-3b8de50a3ce4",
+    "created_time": "2023-08-18T14:46:00.000Z",
+    "last_edited_time": "2023-08-18T14:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "4c1011f0-8b9d-46b7-b155-b875a9f09c80"
+          }
+        ],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Fix gutters",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Fix gutters",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Fix-gutters-b15a54f2d602426f90703b8de50a3ce4",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "6210025c-50f7-408e-97b2-2a2db3b80e03",
+    "created_time": "2023-08-18T00:00:00.000Z",
+    "last_edited_time": "2023-08-18T00:00:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": []
+      }
+    },
+    "url": "https://www.notion.so/6210025c50f7408e97b22a2db3b80e03",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "318ea694-e9db-4434-916c-04b8635348b8",
+    "created_time": "2022-12-04T16:55:00.000Z",
+    "last_edited_time": "2023-08-17T23:18:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": {
+          "id": "Xp^R",
+          "name": "4 - Next month",
+          "color": "blue"
+        }
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": {
+          "id": "nGdM",
+          "name": "High",
+          "color": "green"
+        }
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Financial planning post Becca transition",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Financial planning post Becca transition",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Financial-planning-post-Becca-transition-318ea694e9db4434916c04b8635348b8",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e5eb8877-eff7-4e1c-8102-4d192b5afaae",
+    "created_time": "2023-08-17T23:02:00.000Z",
+    "last_edited_time": "2023-08-17T23:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Fix car",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Fix car",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Fix-car-e5eb8877eff74e1c81024d192b5afaae",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "84e7821e-d9e4-4c26-a127-e977f9f3ab6f",
+    "created_time": "2022-12-04T16:54:00.000Z",
+    "last_edited_time": "2023-08-17T23:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "61f89fe9-191a-4726-9f8b-196b562aba06"
+          }
+        ],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Fair play",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Fair play",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Fair-play-84e7821ed9e44c26a127e977f9f3ab6f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "215be168-6687-40ea-a75d-2467700ac4cb",
+    "created_time": "2023-03-19T15:34:00.000Z",
+    "last_edited_time": "2023-08-17T23:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "House renovation",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "House renovation",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/House-renovation-215be168668740eaa75d2467700ac4cb",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "444109fb-36a3-4682-88ca-7ec688d799d4",
+    "created_time": "2023-08-17T23:16:00.000Z",
+    "last_edited_time": "2023-08-17T23:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Consider getting organizer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Consider getting organizer",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Consider-getting-organizer-444109fb36a3468288ca7ec688d799d4",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "380a2e34-f64a-405c-a492-e540e354c834",
+    "created_time": "2023-08-17T23:16:00.000Z",
+    "last_edited_time": "2023-08-17T23:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Consider getting another assistant",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Consider getting another assistant",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Consider-getting-another-assistant-380a2e34f64a405ca492e540e354c834",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "5dbd771b-47eb-4022-8d11-cfdd7c28c7c9",
+    "created_time": "2023-08-17T23:12:00.000Z",
+    "last_edited_time": "2023-08-17T23:12:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Child and household care",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Child and household care",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Child-and-household-care-5dbd771b47eb40228d11cfdd7c28c7c9",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "bdc2c330-04cb-4725-a064-bb99794a8de7",
+    "created_time": "2022-12-04T15:54:00.000Z",
+    "last_edited_time": "2023-08-17T23:09:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "ee5af26f-7469-461c-82a8-99fbd10e02ed"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Family priorities thoughts and strategy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Family priorities thoughts and strategy",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Family-priorities-thoughts-and-strategy-bdc2c33004cb4725a064bb99794a8de7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9c8cf78e-f8f9-4289-814b-e80f41509ab4",
+    "created_time": "2023-08-17T23:02:00.000Z",
+    "last_edited_time": "2023-08-17T23:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Get money back from Shimons",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Get money back from Shimons",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Get-money-back-from-Shimons-9c8cf78ef8f94289814be80f41509ab4",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "7c3f3316-d6cb-4506-9d01-b0da05599556",
+    "created_time": "2023-08-07T12:07:00.000Z",
+    "last_edited_time": "2023-08-17T13:21:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-08-07",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-08-07",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/7c3f3316d6cb45069d01b0da05599556",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "6ff29248-b90a-4abd-8323-fd3902e8e6fe",
+    "created_time": "2023-08-15T17:21:00.000Z",
+    "last_edited_time": "2023-08-15T17:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "d9787a92-b533-4d79-a66c-64ac41db743a"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Aviv watch decisin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Aviv watch decisin",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Aviv-watch-decisin-6ff29248b90a4abd8323fd3902e8e6fe",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "15af01f8-a5ef-4c6f-9be1-2e5ee7405b67",
+    "created_time": "2022-12-04T16:53:00.000Z",
+    "last_edited_time": "2023-08-11T18:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "f3328484-1aeb-4689-9c8b-f7b3b371ac9d",
+          "name": "Backlog",
+          "color": "default"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e",
+            "name": "David Sendor-Israel",
+            "avatar_url": "https://lh4.googleusercontent.com/-R2yNzxEFwD0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rebIRegKVaTnc14dibyembDb-0bWw/photo.jpg",
+            "type": "person",
+            "person": {
+              "email": "dsendor@gmail.com"
+            }
+          }
+        ]
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Find closure, learnings, and next steps so we grow and move on from the difficulties of my parent’s visit.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Find closure, learnings, and next steps so we grow and move on from the difficulties of my parent’s visit.",
+            "href": null
+          }
+        ]
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Work through Davidi August Parents visit",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Work through Davidi August Parents visit",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Work-through-Davidi-August-Parents-visit-15af01f8a5ef4c6f9be12e5ee7405b67",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "203a6bfd-6da6-480b-aabb-a9c02bf954ed",
+    "created_time": "2023-08-06T13:35:00.000Z",
+    "last_edited_time": "2023-08-06T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "0052c9b4-f336-4347-a289-adfb0c89bcfa"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Assign": {
+        "id": "rYAo",
+        "type": "people",
+        "people": []
+      },
+      "Status": {
+        "id": "uqgt",
+        "type": "status",
+        "status": {
+          "id": "11914581-f529-48fd-b265-7ec609ac2bf4",
+          "name": "Next",
+          "color": "default"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Card 3",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Card 3",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Card-3-203a6bfd6da6480baabba9c02bf954ed",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "6bcd1fee-0700-4af7-947d-875d9af5d64f",
+    "created_time": "2023-08-06T13:35:00.000Z",
+    "last_edited_time": "2023-08-06T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "0052c9b4-f336-4347-a289-adfb0c89bcfa"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Assign": {
+        "id": "rYAo",
+        "type": "people",
+        "people": []
+      },
+      "Status": {
+        "id": "uqgt",
+        "type": "status",
+        "status": {
+          "id": "11914581-f529-48fd-b265-7ec609ac2bf4",
+          "name": "Next",
+          "color": "default"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Card 1",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Card 1",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Card-1-6bcd1fee07004af7947d875d9af5d64f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8f7f19ee-2c40-469a-9ef9-9ec97f59c8b5",
+    "created_time": "2023-08-06T13:35:00.000Z",
+    "last_edited_time": "2023-08-06T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "0052c9b4-f336-4347-a289-adfb0c89bcfa"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Assign": {
+        "id": "rYAo",
+        "type": "people",
+        "people": []
+      },
+      "Status": {
+        "id": "uqgt",
+        "type": "status",
+        "status": {
+          "id": "11914581-f529-48fd-b265-7ec609ac2bf4",
+          "name": "Next",
+          "color": "default"
+        }
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Card 2",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Card 2",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Card-2-8f7f19ee2c40469a9ef99ec97f59c8b5",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "dd716187-9479-48fc-9320-608f3f2ddc2b",
+    "created_time": "2023-07-13T10:55:00.000Z",
+    "last_edited_time": "2023-07-28T11:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-13",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-13",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/dd716187947948fc9320608f3f2ddc2b",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "83896fec-f583-444b-9d47-60eb7eaffed0",
+    "created_time": "2023-07-25T01:48:00.000Z",
+    "last_edited_time": "2023-07-27T10:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-24",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-24",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/83896fecf583444b9d4760eb7eaffed0",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e71c7d6b-f464-414e-a6c4-2097a7bef5df",
+    "created_time": "2023-07-26T12:18:00.000Z",
+    "last_edited_time": "2023-07-27T02:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-26",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-26",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/e71c7d6bf464414ea6c42097a7bef5df",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "7c5be430-d523-4b0a-b042-4adb88177ee0",
+    "created_time": "2023-07-21T21:02:00.000Z",
+    "last_edited_time": "2023-07-26T12:19:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-21",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-21",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/7c5be430d5234b0ab0424adb88177ee0",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "851b1330-9eb1-4b76-b352-96de50b40a1d",
+    "created_time": "2023-07-22T18:21:00.000Z",
+    "last_edited_time": "2023-07-26T12:18:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-22",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-22",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/851b13309eb14b76b35296de50b40a1d",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9e6390fa-1360-41ed-b486-87b1d7c70427",
+    "created_time": "2023-07-11T10:01:00.000Z",
+    "last_edited_time": "2023-07-18T01:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-11",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-11",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/9e6390fa136041edb48687b1d7c70427",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f3ba17d1-923a-4150-b1e3-5057d94769b9",
+    "created_time": "2023-07-15T16:22:00.000Z",
+    "last_edited_time": "2023-07-16T18:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-15",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-15",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/f3ba17d1923a4150b1e35057d94769b9",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "ef40d5f5-c4b6-4f1c-bb79-5d2103b96815",
+    "created_time": "2023-07-01T14:22:00.000Z",
+    "last_edited_time": "2023-07-03T02:23:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-07-01",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-07-01",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/ef40d5f5c4b64f1cbb795d2103b96815",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "ce7d58cd-c058-47a1-8408-f1fc998dbe50",
+    "created_time": "2023-06-24T17:19:00.000Z",
+    "last_edited_time": "2023-07-03T02:22:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-06-24",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-06-24",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/ce7d58cdc05847a18408f1fc998dbe50",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "3b8ef005-ea87-4722-9384-ee04237b6f43",
+    "created_time": "2023-06-15T23:35:00.000Z",
+    "last_edited_time": "2023-06-24T18:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-06-30",
+          "end": "2023-07-02",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "At Ramah",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "At Ramah",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/At-Ramah-3b8ef005ea8747229384ee04237b6f43",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9c25408d-a798-47fb-a2ba-d3f429f08a86",
+    "created_time": "2023-06-15T23:35:00.000Z",
+    "last_edited_time": "2023-06-24T18:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-07-02",
+          "end": "2023-07-04",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Birthday self time",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Birthday self time",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Birthday-self-time-9c25408da79847fba2bad3f429f08a86",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "b1fd3e7e-006d-4c9d-98b3-e4a887d7ef11",
+    "created_time": "2023-06-15T23:34:00.000Z",
+    "last_edited_time": "2023-06-24T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-06-22",
+          "end": "2023-06-25",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "By self",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "By self",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/By-self-b1fd3e7e006d4c9d98b3e4a887d7ef11",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "ce2bc5fe-762c-47a3-ab1d-5630a3e85e54",
+    "created_time": "2023-06-20T23:39:00.000Z",
+    "last_edited_time": "2023-06-23T03:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-06-20",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-06-20",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/ce2bc5fe762c47a3ab1d5630a3e85e54",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "907c79ec-36f4-4d13-aefa-0f49821be636",
+    "created_time": "2023-06-15T23:34:00.000Z",
+    "last_edited_time": "2023-06-20T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-06-25",
+          "end": "2023-06-26",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "On kids",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "On kids",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/On-kids-907c79ec36f44d13aefa0f49821be636",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "c45c45e6-bcd4-4435-a3fd-4d20ff22d6af",
+    "created_time": "2023-06-18T11:20:00.000Z",
+    "last_edited_time": "2023-06-19T09:04:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-06-18",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-06-18",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/c45c45e6bcd44435a3fd4d20ff22d6af",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "b6222c50-65fa-450b-a72e-ea7ba199a63d",
+    "created_time": "2023-06-15T12:36:00.000Z",
+    "last_edited_time": "2023-06-18T23:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-06-15",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-06-15",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/b6222c5065fa450ba72eea7ba199a63d",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a4de44ff-203a-4059-8334-86ba002dc214",
+    "created_time": "2023-06-15T23:33:00.000Z",
+    "last_edited_time": "2023-06-18T20:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-06-21",
+          "end": "2023-06-22",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "On kids",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "On kids",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/On-kids-a4de44ff203a4059833486ba002dc214",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "c40a96b6-f610-45fd-90f3-d4d43acca4eb",
+    "created_time": "2023-06-18T16:10:00.000Z",
+    "last_edited_time": "2023-06-18T16:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": null
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": []
+      }
+    },
+    "url": "https://www.notion.so/c40a96b6f61045fd90f3d4d43acca4eb",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8e17e751-1c76-44bc-8d05-53a587c2834b",
+    "created_time": "2023-06-16T12:33:00.000Z",
+    "last_edited_time": "2023-06-18T14:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-06-16",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-06-16",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/8e17e7511c7644bc8d0553a587c2834b",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9399cae6-a6ed-4424-b6de-231da60378e4",
+    "created_time": "2023-06-15T23:36:00.000Z",
+    "last_edited_time": "2023-06-15T23:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-07-14",
+          "end": "2023-07-16",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "At Ramah",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "At Ramah",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/At-Ramah-9399cae6a6ed4424b6de231da60378e4",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "61cbf191-0a32-49d0-b1f0-fa2413e3d01f",
+    "created_time": "2023-06-15T23:37:00.000Z",
+    "last_edited_time": "2023-06-15T23:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-07-23",
+          "end": "2023-07-23",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kids return",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kids return",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Kids-return-61cbf1910a3249d0b1f0fa2413e3d01f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8d5aac42-41f2-45ba-94f4-8e3cb2b988b3",
+    "created_time": "2023-06-15T23:37:00.000Z",
+    "last_edited_time": "2023-06-15T23:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-07-21",
+          "end": "2023-07-23",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ramah",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ramah",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Ramah-8d5aac4241f245ba94f48e3cb2b988b3",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "3c67e9bc-ff2b-49bb-8254-0128505d9ad2",
+    "created_time": "2023-06-15T23:36:00.000Z",
+    "last_edited_time": "2023-06-15T23:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-07-17",
+          "end": "2023-07-21",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "At Work - Belfast",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "At Work - Belfast",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/At-Work-Belfast-3c67e9bcff2b49bb82540128505d9ad2",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "85b72c73-32cc-4e4d-bd4c-cf45589343a0",
+    "created_time": "2023-06-15T23:36:00.000Z",
+    "last_edited_time": "2023-06-15T23:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-07-09",
+          "end": "2023-07-14",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "At work ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "At work ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/At-work-85b72c7332cc4e4dbd4ccf45589343a0",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "b0b32241-5181-4784-a79b-00b0be9b881a",
+    "created_time": "2023-06-15T23:35:00.000Z",
+    "last_edited_time": "2023-06-15T23:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-07-07",
+          "end": "2023-07-09",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "At Ramah",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "At Ramah",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/At-Ramah-b0b3224151814784a79b00b0be9b881a",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "3c4fd848-11a3-4666-bd65-1319072c7ef9",
+    "created_time": "2023-06-15T23:35:00.000Z",
+    "last_edited_time": "2023-06-15T23:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-07-05",
+          "end": "2023-07-07",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Work- home",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Work- home",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Work-home-3c4fd84811a34666bd651319072c7ef9",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8b313b93-c8f7-4986-bfde-d9d1830a52b0",
+    "created_time": "2023-06-15T23:34:00.000Z",
+    "last_edited_time": "2023-06-15T23:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "1e42147e-a332-48fa-97c8-7e6a2495be5f"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Date": {
+        "id": "PDYv",
+        "type": "date",
+        "date": {
+          "start": "2023-06-27",
+          "end": "2023-06-30",
+          "time_zone": null
+        }
+      },
+      "Tags": {
+        "id": "UoqV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Work onsite",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Work onsite",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Work-onsite-8b313b93c8f74986bfded9d1830a52b0",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "cbf23a97-1890-4850-b338-52fc35cbbf56",
+    "created_time": "2023-06-15T10:56:00.000Z",
+    "last_edited_time": "2023-06-15T10:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Journal Template",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Journal Template",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Journal-Template-cbf23a9718904850b33852fc35cbbf56",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "fde94bcb-e510-4573-af59-eeccf1193eb2",
+    "created_time": "2023-06-10T23:53:00.000Z",
+    "last_edited_time": "2023-06-12T01:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-06-10",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-06-10",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/fde94bcbe5104573af59eeccf1193eb2",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "ed8c7a20-2728-4415-a8d9-180ec038c872",
+    "created_time": "2023-06-07T21:49:00.000Z",
+    "last_edited_time": "2023-06-07T21:59:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Journal Template",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Journal Template",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Journal-Template-ed8c7a2027284415a8d9180ec038c872",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "aa6929aa-24db-4e4d-815c-fb8cfdf61805",
+    "created_time": "2023-06-07T11:42:00.000Z",
+    "last_edited_time": "2023-06-07T11:43:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-06-07",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-06-07",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/aa6929aa24db4e4d815cfb8cfdf61805",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "c3c89090-e52a-4dfe-9834-d719dced754d",
+    "created_time": "2023-03-29T22:32:00.000Z",
+    "last_edited_time": "2023-06-05T02:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-03-29",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-03-29",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/c3c89090e52a4dfe9834d719dced754d",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "25b3666a-3ea4-4940-9590-fbde7ba9caf6",
+    "created_time": "2022-06-29T01:43:00.000Z",
+    "last_edited_time": "2023-06-04T09:18:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "4aee2e33-35b9-4502-ae18-7f7b31f15453"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "VeGrow model and ideas to prepare for weekly meeting",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "VeGrow model and ideas to prepare for weekly meeting",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/VeGrow-model-and-ideas-to-prepare-for-weekly-meeting-25b3666a3ea449409590fbde7ba9caf6",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a59a959d-94e6-48a8-b3a5-823900fdc4c3",
+    "created_time": "2022-11-18T14:24:00.000Z",
+    "last_edited_time": "2023-06-01T03:00:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🕍"
+    },
+    "parent": {
+      "type": "page_id",
+      "page_id": "4aee2e33-35b9-4502-ae18-7f7b31f15453"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Shabbat plans",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Shabbat plans",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Shabbat-plans-a59a959d94e648a8b3a5823900fdc4c3",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f9f4209d-664e-4849-9c47-73f146f3d0ea",
+    "created_time": "2023-05-30T02:08:00.000Z",
+    "last_edited_time": "2023-05-30T02:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "bbf6a847-8116-409d-bcac-8f24caec4d72"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Family activities",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Family activities",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Family-activities-f9f4209d664e48499c4773f146f3d0ea",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "83b22725-a2a5-4a25-8122-0676e09f8515",
+    "created_time": "2023-05-29T11:07:00.000Z",
+    "last_edited_time": "2023-05-30T02:09:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-05-29",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-05-29",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/83b22725a2a54a2581220676e09f8515",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8f5c0e8b-cd3c-4bbe-83d8-24a1998a8e75",
+    "created_time": "2023-05-28T12:40:00.000Z",
+    "last_edited_time": "2023-05-28T22:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-05-28",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-05-28",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/8f5c0e8bcd3c4bbe83d824a1998a8e75",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "d81981a2-a571-481e-a266-0a669fe097e1",
+    "created_time": "2023-03-19T15:03:00.000Z",
+    "last_edited_time": "2023-05-28T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "4c1011f0-8b9d-46b7-b155-b875a9f09c80"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Talking points for Syroos",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Talking points for Syroos",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Talking-points-for-Syroos-d81981a2a571481ea2660a669fe097e1",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e67f2405-c76f-4bda-8c89-6c3c55848f0e",
+    "created_time": "2022-12-04T16:57:00.000Z",
+    "last_edited_time": "2023-05-28T17:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "e5ae4bf5-d0e1-4740-890b-87b0e55be5fe"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Becca priority": {
+        "id": "%3Ccp%7D",
+        "type": "select",
+        "select": null
+      },
+      "Status": {
+        "id": "Kzg~",
+        "type": "status",
+        "status": {
+          "id": "d798e516-b6c4-4ac8-9b6e-d7464fcbe910",
+          "name": "Done",
+          "color": "green"
+        }
+      },
+      "Parent item": {
+        "id": "Mu%7Ba",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Assign": {
+        "id": "NNZ%5B",
+        "type": "people",
+        "people": []
+      },
+      "Sub-item": {
+        "id": "UhbB",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Urgency": {
+        "id": "YX%5Ca",
+        "type": "select",
+        "select": null
+      },
+      "Davidi priority": {
+        "id": "oFNM",
+        "type": "select",
+        "select": null
+      },
+      "Goal": {
+        "id": "smnI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Improve/Create  School plan",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Improve/Create  School plan",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Improve-Create-School-plan-e67f2405c76f4bda8c896c3c55848f0e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "838cbc28-23cf-48b0-ae81-407023572072",
+    "created_time": "2023-05-27T16:11:00.000Z",
+    "last_edited_time": "2023-05-28T16:02:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-05-27",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-05-27",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/838cbc2823cf48b0ae81407023572072",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "977ba74d-61bc-4306-814c-2be5d726e255",
+    "created_time": "2023-02-21T15:40:00.000Z",
+    "last_edited_time": "2023-05-27T21:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-02-21",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-02-21",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/977ba74d61bc4306814c2be5d726e255",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "89e3a843-f7bf-4c63-82f9-63ea674694f7",
+    "created_time": "2023-04-27T11:43:00.000Z",
+    "last_edited_time": "2023-05-27T20:54:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-04-27",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-04-27",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/89e3a843f7bf4c6382f963ea674694f7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9e3ee136-dcf1-4742-976e-f33955498db4",
+    "created_time": "2023-05-13T13:34:00.000Z",
+    "last_edited_time": "2023-05-27T20:50:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-05-13",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-05-13",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/9e3ee136dcf14742976ef33955498db4",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "7cd1f9b7-ebd8-4c54-b8f3-05ae6599db53",
+    "created_time": "2023-05-25T11:22:00.000Z",
+    "last_edited_time": "2023-05-27T20:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-05-25",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-05-25",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/7cd1f9b7ebd84c54b8f305ae6599db53",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a8402a2f-8c84-4d71-9e05-f8cc87cb30c0",
+    "created_time": "2023-05-23T21:02:00.000Z",
+    "last_edited_time": "2023-05-27T20:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-05-23",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-05-23",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/a8402a2f8c844d719e05f8cc87cb30c0",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f88758eb-69ac-4537-b075-c0495140c0cd",
+    "created_time": "2023-05-22T18:08:00.000Z",
+    "last_edited_time": "2023-05-27T20:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "08420ba5-3b67-4754-9c1e-deacf1b44f7e"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3c5a6f85-29c5-44a1-b63d-ce088024faa8"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "page_id",
+      "page_id": "9665ecc2-d099-42d9-8847-ee6443aaa620"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "  ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "  ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2023-05-22",
+                "end": null,
+                "time_zone": null
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2023-05-22",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/f88758eb69ac4537b075c0495140c0cd",
+    "public_url": null
+  }
+]

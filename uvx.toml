@@ -1,0 +1,5 @@
+[commands.python]
+python = "3.11"
+packages = [
+    "mcp @ https://modelcontextprotocol.io/downloads/mcp-0.1.0-py3-none-any.whl"
+] 

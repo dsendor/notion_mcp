@@ -1,0 +1,3 @@
+git+https://github.com/modelcontextprotocol/protocol-python.git#egg=mcp
+httpx
+python-dotenv 

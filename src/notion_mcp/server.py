@@ -1,280 +1,123 @@
 from mcp.server import Server
-from mcp.types import (
-    Resource, 
-    Tool,
-    TextContent,
-    EmbeddedResource
-)
-from pydantic import AnyUrl
-import os
-import json
-from datetime import datetime
-import httpx
-from typing import Any, Sequence
-from dotenv import load_dotenv
+from mcp.types import Resource, Tool, TextContent
 from pathlib import Path
-import logging
+import json
+import asyncio
+from typing import List, Dict, Optional
 
-# Set up logging
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger('notion_mcp')
+class NotionMCPServer(Server):
+    def __init__(self):
+        super().__init__(name="notion-mcp")
+        self.project_root = Path(__file__).parent.parent.parent
+        self.metadata: Dict[str, dict] = {}
+        self.page_batch_map: Dict[str, int] = {}  # Maps page IDs to batch numbers
+        self.load_metadata()
 
-# Find and load .env file from project root
-project_root = Path(__file__).parent.parent.parent
-env_path = project_root / '.env'
-if not env_path.exists():
-    raise FileNotFoundError(f"No .env file found at {env_path}")
-load_dotenv(env_path)
-
-# Initialize server
-server = Server("notion-todo")
-
-# Configuration with validation
-NOTION_API_KEY = os.getenv("NOTION_API_KEY")
-DATABASE_ID = os.getenv("NOTION_DATABASE_ID")
-
-if not NOTION_API_KEY:
-    raise ValueError("NOTION_API_KEY not found in .env file")
-if not DATABASE_ID:
-    raise ValueError("NOTION_DATABASE_ID not found in .env file")
-
-NOTION_VERSION = "2022-06-28"
-NOTION_BASE_URL = "https://api.notion.com/v1"
-
-# Notion API headers
-headers = {
-    "Authorization": f"Bearer {NOTION_API_KEY}",
-    "Content-Type": "application/json",
-    "Notion-Version": NOTION_VERSION
-}
-
-async def fetch_todos() -> dict:
-    """Fetch todos from Notion database"""
-    async with httpx.AsyncClient() as client:
-        response = await client.post(
-            f"{NOTION_BASE_URL}/databases/{DATABASE_ID}/query",
-            headers=headers,
-            json={
-                "sorts": [
-                    {
-                        "timestamp": "created_time",
-                        "direction": "descending"
-                    }
-                ]
-            }
-        )
-        response.raise_for_status()
-        return response.json()
-
-async def create_todo(task: str, when: str) -> dict:
-    """Create a new todo in Notion"""
-    async with httpx.AsyncClient() as client:
-        response = await client.post(
-            f"{NOTION_BASE_URL}/pages",
-            headers=headers,
-            json={
-                "parent": {"database_id": DATABASE_ID},
-                "properties": {
-                    "Task": {
-                        "type": "title",
-                        "title": [{"type": "text", "text": {"content": task}}]
-                    },
-                    "When": {
-                        "type": "select",
-                        "select": {"name": when}
-                    },
-                    "Checkbox": {
-                        "type": "checkbox",
-                        "checkbox": False
-                    }
-                }
-            }
-        )
-        response.raise_for_status()
-        return response.json()
-
-async def complete_todo(page_id: str) -> dict:
-    """Mark a todo as complete in Notion"""
-    async with httpx.AsyncClient() as client:
-        response = await client.patch(
-            f"{NOTION_BASE_URL}/pages/{page_id}",
-            headers=headers,
-            json={
-                "properties": {
-                    "Checkbox": {
-                        "type": "checkbox",
-                        "checkbox": True
-                    }
-                }
-            }
-        )
-        response.raise_for_status()
-        return response.json()
-
-@server.list_tools()
-async def list_tools() -> list[Tool]:
-    """List available todo tools"""
-    return [
-        Tool(
-            name="add_todo",
-            description="Add a new todo item",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "task": {
-                        "type": "string",
-                        "description": "The todo task description"
-                    },
-                    "when": {
-                        "type": "string",
-                        "description": "When the task should be done (today or later)",
-                        "enum": ["today", "later"]
-                    }
-                },
-                "required": ["task", "when"]
-            }
-        ),
-        Tool(
-            name="show_all_todos",
-            description="Show all todo items from Notion",
-            inputSchema={
-                "type": "object",
-                "properties": {},
-                "required": []
-            }
-        ),
-        Tool(
-            name="show_today_todos",
-            description="Show today's todo items from Notion",
-            inputSchema={
-                "type": "object",
-                "properties": {},
-                "required": []
-            }
-        ),
-        Tool(
-            name="complete_todo",
-            description="Mark a todo item as complete",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "task_id": {
-                        "type": "string",
-                        "description": "The ID of the todo task to mark as complete"
-                    }
-                },
-                "required": ["task_id"]
-            }
-        )
-    ]
-
-@server.call_tool()
-async def call_tool(name: str, arguments: Any) -> Sequence[TextContent | EmbeddedResource]:
-    """Handle tool calls for todo management"""
-    if name == "add_todo":
-        if not isinstance(arguments, dict):
-            raise ValueError("Invalid arguments")
-            
-        task = arguments.get("task")
-        when = arguments.get("when", "later")
+    def load_metadata(self):
+        """Load and index all page metadata"""
+        print("Loading Notion page metadata...")
         
-        if not task:
-            raise ValueError("Task is required")
-        if when not in ["today", "later"]:
-            raise ValueError("When must be 'today' or 'later'")
-            
-        try:
-            result = await create_todo(task, when)
-            return [
-                TextContent(
-                    type="text",
-                    text=f"Added todo: {task} (scheduled for {when})"
-                )
-            ]
-        except httpx.HTTPError as e:
-            logger.error(f"Notion API error: {str(e)}")
-            return [
-                TextContent(
-                    type="text",
-                    text=f"Error adding todo: {str(e)}\nPlease make sure your Notion integration is properly set up and has access to the database."
-                )
-            ]
-            
-    elif name in ["show_all_todos", "show_today_todos"]:
-        try:
-            todos = await fetch_todos()
-            formatted_todos = []
-            for todo in todos.get("results", []):
-                props = todo["properties"]
-                formatted_todo = {
-                    "id": todo["id"],  # Include the page ID in the response
-                    "task": props["Task"]["title"][0]["text"]["content"] if props["Task"]["title"] else "",
-                    "completed": props["Checkbox"]["checkbox"],
-                    "when": props["When"]["select"]["name"] if props["When"]["select"] else "unknown",
-                    "created": todo["created_time"]
-                }
-                
-                if name == "show_today_todos" and formatted_todo["when"].lower() != "today":
-                    continue
-                    
-                formatted_todos.append(formatted_todo)
-            
-            return [
-                TextContent(
-                    type="text",
-                    text=json.dumps(formatted_todos, indent=2)
-                )
-            ]
-        except httpx.HTTPError as e:
-            logger.error(f"Notion API error: {str(e)}")
-            return [
-                TextContent(
-                    type="text",
-                    text=f"Error fetching todos: {str(e)}\nPlease make sure your Notion integration is properly set up and has access to the database."
-                )
-            ]
-    
-    elif name == "complete_todo":
-        if not isinstance(arguments, dict):
-            raise ValueError("Invalid arguments")
-            
-        task_id = arguments.get("task_id")
-        if not task_id:
-            raise ValueError("Task ID is required")
-            
-        try:
-            result = await complete_todo(task_id)
-            return [
-                TextContent(
-                    type="text",
-                    text=f"Marked todo as complete (ID: {task_id})"
-                )
-            ]
-        except httpx.HTTPError as e:
-            logger.error(f"Notion API error: {str(e)}")
-            return [
-                TextContent(
-                    type="text",
-                    text=f"Error completing todo: {str(e)}\nPlease make sure your Notion integration is properly set up and has access to the database."
-                )
-            ]
-    
-    raise ValueError(f"Unknown tool: {name}")
+        # Load all pages and create metadata index
+        all_pages_path = self.project_root / "all_pages.json"
+        if all_pages_path.exists():
+            with open(all_pages_path, 'r', encoding='utf-8') as f:
+                pages = json.load(f)
+                for page in pages:
+                    self.metadata[page["id"]] = {
+                        "title": self.extract_title(page),
+                        "last_edited": page["last_edited_time"],
+                        "url": page.get("url", ""),
+                        "object_type": page.get("object", "unknown")
+                    }
+        else:
+            print(f"Warning: {all_pages_path} not found")
 
-async def main():
-    """Main entry point for the server"""
-    from mcp.server.stdio import stdio_server
-    
-    if not NOTION_API_KEY or not DATABASE_ID:
-        raise ValueError("NOTION_API_KEY and NOTION_DATABASE_ID environment variables are required")
-    
-    async with stdio_server() as (read_stream, write_stream):
-        await server.run(
-            read_stream,
-            write_stream,
-            server.create_initialization_options()
-        )
+    def extract_title(self, page: dict) -> str:
+        """Extract title from page properties"""
+        try:
+            properties = page.get("properties", {})
+            title_prop = properties.get("Name", {}) or properties.get("title", {})
+            if title_prop:
+                return title_prop.get("title", [{}])[0].get("text", {}).get("content", "Untitled")
+            return "Untitled"
+        except Exception:
+            return "Untitled"
 
-if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+    def find_relevant_pages(self, query: str, limit: int = 5) -> Dict[str, dict]:
+        """Find pages relevant to the query"""
+        # Simple text matching for now - can be enhanced with better search later
+        relevant = {}
+        for page_id, meta in self.metadata.items():
+            if query.lower() in meta["title"].lower():
+                relevant[page_id] = meta
+                if len(relevant) >= limit:
+                    break
+        return relevant
+
+    async def load_full_page(self, page_id: str) -> Optional[Resource]:
+        """Load full content of a specific page"""
+        try:
+            all_pages_path = self.project_root / "all_pages.json"
+            with open(all_pages_path, 'r', encoding='utf-8') as f:
+                pages = json.load(f)
+                page = next((p for p in pages if p["id"] == page_id), None)
+                if page:
+                    return Resource(
+                        id=page_id,
+                        content=TextContent(self.format_page_content(page)),
+                        metadata=self.metadata[page_id]
+                    )
+        except Exception as e:
+            print(f"Error loading page {page_id}: {e}")
+        return None
+
+    def format_page_content(self, page: dict) -> str:
+        """Format page content for display"""
+        content_parts = [
+            f"Title: {self.extract_title(page)}",
+            f"Last edited: {page['last_edited_time']}",
+            "Properties:"
+        ]
+        
+        for prop_name, prop_data in page.get("properties", {}).items():
+            value = self.extract_property_value(prop_data)
+            if value:
+                content_parts.append(f"  {prop_name}: {value}")
+        
+        return "\n".join(content_parts)
+
+    def extract_property_value(self, prop_data: dict) -> str:
+        """Extract readable value from a property"""
+        prop_type = prop_data.get("type", "")
+        if prop_type == "title":
+            return prop_data.get("title", [{}])[0].get("text", {}).get("content", "")
+        elif prop_type == "rich_text":
+            texts = prop_data.get("rich_text", [])
+            return " ".join(t.get("text", {}).get("content", "") for t in texts)
+        elif prop_type == "select":
+            select_data = prop_data.get("select", {})
+            return select_data.get("name", "") if select_data else ""
+        return str(prop_data.get(prop_type, ""))
+
+    async def get_resources(self, query: str) -> List[Resource]:
+        """Return resources matching the query"""
+        relevant_pages = self.find_relevant_pages(query)
+        
+        resources = []
+        for page_id, meta in relevant_pages.items():
+            # Create a resource with basic metadata
+            resource = Resource(
+                id=page_id,
+                content=TextContent(f"Title: {meta['title']}\nLast edited: {meta['last_edited']}"),
+                metadata=meta,
+                tools=[
+                    Tool(
+                        name="load_full_content",
+                        description="Load the full content of this page",
+                        function=self.load_full_page
+                    )
+                ]
+            )
+            resources.append(resource)
+        
+        return resources

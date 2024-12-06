@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/notion_mcp/__init__.py
+src/notion_mcp/__main__.py
+src/notion_mcp/run_server.py
+src/notion_mcp/server.py
+src/notion_mcp/test_query.py
+src/notion_mcp.egg-info/PKG-INFO
+src/notion_mcp.egg-info/SOURCES.txt
+src/notion_mcp.egg-info/dependency_links.txt
+src/notion_mcp.egg-info/requires.txt
+src/notion_mcp.egg-info/top_level.txt
